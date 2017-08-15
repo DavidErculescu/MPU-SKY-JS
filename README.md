@@ -1,1 +1,1 @@
-# MPU-SKY-JS
+This is an animation of a MPU baneer.
