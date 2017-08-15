@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: SkyTextBold;
+    src: url('../fonts/SkyText-Bold.ttf');
+}
+
+@font-face {
+    font-family: SkyTextMedium;
+    src: url('../fonts/SkyTextMedium-Regular.ttf');
+}
+
+@font-face {
+    font-family: SkyTextRegular;
+    src: url('../fonts/SkyText-Regular.ttf');
+}
+
+.noSelect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    cursor: default;
+}
+
+.skyFontBold {
+    font-family: SkyTextBold;
+}
+
+.skyFontMedium {
+    font-family: SkyTextMedium;
+}
+
+.sky_logo {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+}
+
+.mpu_frame,
+canvas {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+.mpu_frame {
+    position: relative;
+    font-family: SkyTextRegular;
+    background: url('../images/background.png') no-repeat;
+}
+
+.frame_title {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.frame_copy {
+    font-size: 14px;
+    text-align: center;
+    color: #36529f;
+    display: inline-block;
+}
+
+#logo_holder {
+    margin-top: 40px;
+}
+
+#logo_holder img {
+    width: 80px;
+}
+
+#logo_holder img:nth-child(2) {
+    margin-left: 25px;
+}
+
+#largeBadge {
+    width: 170px;
+    margin-top: 18px;
+}
+
+.small_copy {
+    font-size: 11px;
+    text-align: right;
+    margin-right: 15px;
+    font-family: SkyTextMedium;
+}
+
+.frame_button {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+
+    border-radius: 7px;
+    border: 1px solid #ebeae9;
+
+    width: 135px;
+    height: 35px;
+
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+
+    background: -webkit-linear-gradient(left, #9b2c7c, #174395);
+    background: -o-linear-gradient(right, #9b2c7c, #174395);
+    background: -moz-linear-gradient(right, #9b2c7c, #174395);
+    background: linear-gradient(to right, #9b2c7c, #174395);
+}
+
+.frame_button img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text_gradient {
+    background: -webkit-linear-gradient(left, #f08100, #e40712, #0e4597);
+    background: -o-linear-gradient(right, #f08100, #e40712, #0e4597);
+    background: -moz-linear-gradient(right, #f08100, #e40712, #0e4597);
+    background: linear-gradient(to right, #f08100, #e40712, #0e4597);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
